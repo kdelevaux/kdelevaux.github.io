@@ -1,0 +1,43 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+section h2 {
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+section a {
+  display: block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: black;
+}
